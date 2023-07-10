@@ -4,4 +4,58 @@
 }
 body{
     font-family: "Trirong", serif;
+    color: #272727;
+}
+
+.btn-primary{
+    font-size: 18px;
+    color: #FFFFFF;
+    background-color: #E55473;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid #E55473;
+    cursor: pointer;
+}
+.title{
+    display: flex;
+    justify-content: center;
+
+}
+.title-content{
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* banner section css */
+.section-banner{
+    background-color: #FCEEF1;
+    height: 850px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 100px ;
+
+}
+
+.banner-details>h1{
+    font-size: 45px;
+    font-weight:bolder;
+}
+.banner-details>p{
+    margin: 20px 0;
+    font-size: 18px;
+}
+
+.banner-image>img{
+    margin-top: 50px;
+    width: 635px;
+    height: 800px;
+}
+
+/* section feature css */
+.section-feature{
+    margin: 100px;
+}
+.content{
+    background-image: url('../images/pngwing-10.png');
 }
