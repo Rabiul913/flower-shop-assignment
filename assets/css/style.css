@@ -102,4 +102,17 @@ body{
 }
 
 /* section card css */
-.feature-card
+.section-card{
+    margin: 110px;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+.feature-card{
+    margin: 50px 70px;
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+}
+.feature-card .card-design{
+    text-align: center;
+}
