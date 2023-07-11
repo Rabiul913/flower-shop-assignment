@@ -5,6 +5,7 @@
 body{
     font-family: "Trirong", serif;
     color: #272727;
+    background-color: #FFFFFF;
 }
 
 .btn-primary{
@@ -56,6 +57,49 @@ body{
 .section-feature{
     margin: 100px;
 }
-.content{
-    background-image: url('../images/pngwing-10.png');
+.feature-content{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
 }
+.bg-color-1{
+    background-color: #F2DEE7;
+}
+.bg-color-2{
+    background-color: #D9EFF1;
+}
+.bg-color-3{
+    background-color: #E3EBDB;
+}
+.content-card>.content-img{
+    /* background-image: url('../images/pngwing-10.png'); */
+    /* width: 460px;
+    height: 500px; */
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    padding: 20px 40px 0 40px;
+}
+
+.content-card>.content-img>img{
+    width: 250px;
+    /* height: 428px; */
+    margin-top: auto;
+}
+.content-card>.content-img>.img{
+    /* margin-top: auto; */
+    margin-bottom: auto;
+}
+.content-card b{
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+.content-card b a{
+    color: #272727;
+}
+
+/* section card css */
+.feature-card
