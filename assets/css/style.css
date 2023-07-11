@@ -116,3 +116,26 @@ body{
 .feature-card .card-design{
     text-align: center;
 }
+
+/* signup section css */
+.section-signup{
+    display: flex;
+    background-color: #FEF6F8;
+    justify-content: space-around;
+    align-items: center;
+    padding: 100px 150px;
+}
+.signup-content{
+    text-align: center;
+}
+.signup-content h3{
+    font-size: 35px;
+}
+.signup-content>h3>span{
+    color: #E55473;
+}
+.signup-content p{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
